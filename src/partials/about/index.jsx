@@ -36,6 +36,30 @@ const About = (props) => (
           alt='About Picture'
           src={aboutImg2}
         />
+                <Image
+          className='img-thumbnail'
+
+          alt='About Picture'
+          src={aboutImg3}
+        />
+                        <Image
+          className='img-thumbnail'
+
+          alt='About Picture'
+          src={aboutImg4}
+        />
+                        <Image
+          className='img-thumbnail'
+
+          alt='About Picture'
+          src={aboutImg5}
+        />
+                        <Image
+          className='img-thumbnail'
+
+          alt='About Picture'
+          src={aboutImg6}
+        />
 
       </Col>
 
@@ -44,9 +68,7 @@ const About = (props) => (
         { /* Information part */}
 
 
-        <h2 className='_title'>
-                        <iframe width="95%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1764075174&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-        </h2>
+
         <h2 className='_title'>Deceptive Cadences</h2>
 
         <div className='_description'>

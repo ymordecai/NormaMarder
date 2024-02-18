@@ -40,7 +40,9 @@ export default {
           width: 200px;
         }
         @media (max-width: ${bs['breakpoint-max-sm']}) {
-          margin: 0 auto 32px auto;
+          margin:0 auto 22px auto;
+          height:100px!important;
+          border-radius:5%;
         }
       }
     }
@@ -83,6 +85,7 @@ export default {
         font-size: 22px;
       }
     }
+
 
    ._description {
     text-indent:50px;

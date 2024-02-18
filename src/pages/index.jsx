@@ -25,12 +25,12 @@ const HomeImage = ({ portfolioData, testimonialsData, blogData }) => (
     <Hero nav='Home' id='home' variant='image' />
 
     {/* Include the rest of sections, some with passed MDX data */}
-    <About nav='Words & Music' id='about' />
+    <About nav='Deceptive Cadences' id='about' />
    {/* <Services nav='Services' id='services' />*/}
-   {/* <Hire id='hire' />*/}
-    <Portfolio nav='Writings' id='portfolio' data={portfolioData} />
-    <Testimonials nav='Clients' id='testimonials' data={testimonialsData} />
-    <Blog nav='Blog' id='blog' data={blogData} />
+    <Hire nav='Music' id='hire' />
+    <Portfolio nav='More Writings' id='portfolio' data={portfolioData} />
+   {/* <Testimonials nav='Clients' id='testimonials' data={testimonialsData} /> */}
+  {/*  <Blog nav='Blog' id='blog' data={blogData} /> */}
     <Contact nav='Contact' id='contact' />
     <Footer id='footer' />
   </ScrollWrapper>
