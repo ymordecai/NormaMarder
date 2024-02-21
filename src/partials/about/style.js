@@ -87,21 +87,25 @@ export default {
       }
     }
 
-
-   ._description {
-    text-indent:50px;
-    }
-    ._noIndent {
-    text-indent:0;
-    }
-    ._description {
-      font-size: 15px;
+        ._description h5 {
+      font-weight: 300;
+      margin-bottom: 15px;
+      font-size: 28px;
+      line-height: 1.5;
+      text-indent:50px;
+      @media (min-width: ${bs['breakpoint-max-lg']}) and (max-width: ${bs[
+          'breakpoint-max-xl'
+        ]}) {
+        font-size: 22px;
       }
-            ._description h5 {
-  font-size:22px;
-  line-height:35px;
-  margin-bottom:20px
-}
+      @media (max-width: ${bs['breakpoint-max-lg']}) {
+        font-size: 22px;
+      }
+      @media (max-width: ${bs['breakpoint-max-sm']}) {
+        font-size: 16px;
+      }
+    }
+
       @media (min-width: ${bs['breakpoint-max-lg']}) and (max-width: ${bs[
           'breakpoint-max-xl'
         ]}) {
@@ -168,5 +172,7 @@ export default {
         margin-bottom: 14px;
       }
     }
+
   `,
 }
+
