@@ -50,7 +50,7 @@ const Footer = (props) => (
   <SectionWrapper css={styled.Footer} {...props}>
     {/* List contact information blocks */}
     <Row className='_contact'>
-      <SingleBlock
+      {/*<SingleBlock
         Icon={icons.MapSharp}
         content={
           <a href='https://goo.gl/maps/2YAGiugG47VAS17g7' target='_blank'>
@@ -58,20 +58,20 @@ const Footer = (props) => (
           </a>
         }
         cols={{ xs: '12', sm: '4' }}
-      />
+      /> */}
       <SingleBlock
         Icon={icons.CallSharp}
-        content={<a href='tel:+441632967704'>+44 1632 967704</a>}
+        content={<a href='tel:+18458636026'>845-863-6026</a>}
         cols={{ xs: '12', sm: '4' }}
       />
       <SingleBlock
         Icon={icons.SendSharp}
-        content={<a href='mailto:alex@example.com'>alex@example.com</a>}
+        content={<a href='mailto:yuri@yurimarder.com'>yuri@yurimarder.com</a>}
         cols={{ xs: '12', sm: '4' }}
       />
     </Row>
     {/* List social media icons and copyright notice */}
-    <Row className='_row _mini'>
+   {/* <Row className='_row _mini'>
       <Col xs='12' lg='5' className='_socials'>
         <SocialIcon url='#0' Icon={icons.LogoTwitter} color='#1DA1F2' />
         <SocialIcon url='#0' Icon={icons.LogoInstagram} color='#C32361' />
@@ -87,7 +87,7 @@ const Footer = (props) => (
         </a>
         .
       </Col>
-    </Row>
+    </Row>*/}
   </SectionWrapper>
 )
 

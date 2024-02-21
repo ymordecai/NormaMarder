@@ -91,7 +91,7 @@ const Sidebar = ({ children }) => {
   // Data to populate sidebar
   const data = {
     toggler: 'Menu',
-    status: 'Life and work',
+    status: 'Life and Work',
     author: 'Norma Marder',
   }
 

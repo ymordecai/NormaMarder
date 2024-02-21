@@ -42,6 +42,7 @@ export default {
       position: relative;
       aspect-ratio: 45/28;
       overflow: hidden;
+      display:none;
     }
     ._date {
       color: #fff;

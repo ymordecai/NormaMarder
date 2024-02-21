@@ -26,9 +26,9 @@ Make sure the values are replaced with your own EmailJS credentials.
 Read the documentation for more information
 */
 const emailjsParams = {
-  serviceId: "your_service_id",
-  templateId: "your_template_id",
-  publicKey: "your_public_key",
+  serviceId: "service_un8hokzyour_service_id",
+  templateId: "template_1j37wai",
+  publicKey: "Q_ZTop8gqWmrwSVIf",
 }
 
 // Define initial state
@@ -166,8 +166,8 @@ const Contact = (props) => {
       css={styled.Contact}
       altBg={true}
       headerData={{
-        title: 'Get in Touch',
-        description: 'Feel free to contact me anytime',
+        title: 'Contact Us',
+        description: 'Send us your thoughts, reminiscences, questions, or just say hello',
       }}
       {...props}
     >

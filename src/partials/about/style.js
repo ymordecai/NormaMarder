@@ -61,6 +61,7 @@ export default {
         display: none;
       }
 
+
       @media (max-width: ${bs['breakpoint-max-lg']}) {
         font-size: 18px;
       }
@@ -95,6 +96,12 @@ export default {
     }
     ._description {
       font-size: 15px;
+      }
+            ._description h5 {
+  font-size:22px;
+  line-height:35px;
+  margin-bottom:20px
+}
       @media (min-width: ${bs['breakpoint-max-lg']}) and (max-width: ${bs[
           'breakpoint-max-xl'
         ]}) {

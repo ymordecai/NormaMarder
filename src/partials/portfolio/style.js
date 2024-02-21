@@ -67,7 +67,7 @@ export default {
       width: 100%;
     }
     ._title {
-      font-size: 15px;
+      font-size: 20px;
       font-weight: 400;
       margin-bottom: 10px;
       line-height: 1.8;
@@ -87,7 +87,7 @@ export default {
     .modal-body {
       .swiper {
         @media (max-width: ${bs['breakpoint-max-lg']}) {
-          margin-bottom: 35px;
+          margin-bottom: 55px;
         }
       }
     }
@@ -101,6 +101,10 @@ export default {
         margin-left: 0;
       }
     }
+    .swiper-pagination {
+  position:relative;
+  margin-top:10px;
+}
     ._title {
       font-weight: 700;
       margin-bottom: 25px;
@@ -109,10 +113,14 @@ export default {
         font-size: 36px;
       }
     }
-
+    ._description i {
+    margin-bottom: 20px;
+        font-size:20px;
+    }
     ._description {
       p {
         margin-bottom: 20px;
+        font-size:20px;
 
         &:last-child {
           margin-bottom: 30px;

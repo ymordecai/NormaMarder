@@ -139,7 +139,7 @@ const MansoryItem = (props) => {
         >
           <div className='_content'>
             <h6 className='_title'>{props.scope.frontmatter?.title}</h6>
-            <span className='_action'>More Info</span>
+            <span className='_action'>Open &raquo;</span>
           </div>
         </div>
       </div>
@@ -234,7 +234,7 @@ const LightboxCarousel = () => {
       {gallery.map((image, index) => (
         // Renders image in a slider
         <SwiperSlide
-          style={{ display: 'flex', justifyContent: 'center' }}
+          style={{ display: 'flex', justifyContent: 'center'}}
           key={index}
         >
           <Image
@@ -280,10 +280,7 @@ const LightboxContentInfo = (props) => {
           </li>
         ))}
       </ul>
-      {/* Button part */}
-      <Button target='_blank' href={projectUrl}>
-        Visit Project
-      </Button>
+
     </>
   )
 }
@@ -300,11 +297,11 @@ const PortfolioLightboxLayout = (props) => {
   return (
     <Row css={styled.PortfolioLightboxLayout}>
       {/* Renders carousel */}
-      <Col className='d-flex align-items-center' xs='12' lg='5'>
+      <Col className='d-flex align-items-top' xs='12' lg='4'>
         {carousel}
       </Col>
       {/* Displays content */}
-      <Col xs='12' lg='7'>
+      <Col xs='12' lg='8'>
         <div className='_content'>
           <h1 className='_title'>{title}</h1>
           <span className='_description'>{children}</span>
@@ -430,8 +427,8 @@ const Portfolio = (props) => {
     <SectionWrapper
       css={styled.Portfolio}
       headerData={{
-        title: 'Portfolio',
-        description: 'Showcasing some of my best work',
+        title: 'Writing',
+        description: 'Selections of Published Works',
       }}
       {...otherProps}
     >
