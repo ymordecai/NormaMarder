@@ -26,7 +26,7 @@ Make sure the values are replaced with your own EmailJS credentials.
 Read the documentation for more information
 */
 const emailjsParams = {
-  serviceId: "service_un8hokzyour_service_id",
+  serviceId: "service_un8hokz",
   templateId: "template_1j37wai",
   publicKey: "Q_ZTop8gqWmrwSVIf",
 }
