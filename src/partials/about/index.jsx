@@ -24,18 +24,6 @@ const About = (props) => (
     <div className='row align-items-top'>
       {/* Image part - Displays profile image */}
       <Col xs='3' lg='5' className=' _image'>
-        <Image
-          className='img-thumbnail'
-
-          alt='About Picture'
-          src={aboutImg1}
-        />
-        <Image
-          className='img-thumbnail'
-
-          alt='About Picture'
-          src={aboutImg2}
-        />
                 <Image
           className='img-thumbnail'
 
@@ -60,9 +48,9 @@ const About = (props) => (
       {/* Text part - Displays name, description, contact details */}
       <Col xs='9' lg='7'>
         { /* Information part */}
-
+<div className='_title'><h2>By Yuri Marder</h2></div>
 <div className='_description'>
-        <h5>Our Mother, Norma Marder, her words, her ideas, her memories, her artistry as a writer and a musician; how does one capture the essence of an artist who herself captured her life as her life's work? Read her essays, her stories, and her novel, listen to her sing, and you will absorb so much more than the retelling of facts and dates. Even tributes about our beautiful loving mother cannot compare to the tribute she gives to herself and the generations of our family. I will, however, tell the story of her passing which unfolded as if it were a final piece from one of her memoirs.</h5>
+        <h5>Our Mother, Norma Marder, her words, her ideas, her memories, her artistry as a writer and a musician; how does one capture the essence of an artist who herself captured her life as her life's work? Read her essays, her stories, and her novel, listen to her sing, and you will absorb so much more than I can tell. Tributes to our beautiful loving mother cannot compare to the tribute she gives to herself and the generations of our family. I will, however, tell the story of her passing which unfolded as if it were a final piece from one of her memoirs.</h5>
 
 <h5>In April 2023, she was diagnosed with advanced-stage ovarian cancer. Almost immediately, she knew what she wanted to do.....no treatment. She wanted to go home and live whatever time she had left, with dignity, at her writing desk, in her beautiful house, with her beloved husband of sixty-six years. And so she came home, to a new space we created for her downstairs in the living room, with her bed, her nurse, a new routine, in control, with her life intact. She could have months, or maybe years. She spent two months living this new way, feeling tired, but good, not even taking aspirin, no pain. Her condition even seemed to improve a bit. Michael got her hearing aids and she could hear! And then on June 28 she got out of bed and fell, fracturing her hip. It was a setback which landed her back in the hospital. But the news wasn't so bad. A hairline fracture, it would heal on its own, she would be home in a few days. But we soon learned that an underlying infection had made her fall, and on the morning of June 29, the bottom dropped out of her blood pressure. My brother and I very quickly had to come to terms with what mom’s expressed intentions were regarding intervention.</h5>
 

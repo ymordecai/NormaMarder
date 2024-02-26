@@ -4,6 +4,7 @@ This is the home page but with just an image background for the Hero section
 
 import ScrollWrapper from 'root/src/components/scroll-wrapper'
 import Hero from 'root/src/partials/hero'
+import Biography from 'root/src/partials/biography'
 import About from 'root/src/partials/about'
 import Services from 'root/src/partials/services'
 import Hire from 'root/src/partials/hire'
@@ -25,6 +26,7 @@ const HomeImage = ({ portfolioData, testimonialsData, blogData }) => (
     <Hero nav='Home' id='home' variant='image' />
 
     {/* Include the rest of sections, some with passed MDX data */}
+    <Biography nav='Something' id='biography' />
     <About nav='The Derecho' id='about' />
    {/* <Services nav='Services' id='services' />*/}
     <Hire nav='Music' id='hire' />
