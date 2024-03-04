@@ -1,0 +1,44 @@
+---
+# Notice: Make sure you have MDX extension installed in Visual Studio Code to see syntax highlighting
+
+# Title
+title: An Eye for Dark Places
+# Date
+date: '1992-01-01'
+# Categories
+categories: ['fiction']
+# Images
+images:
+  # Item thumbnail
+  thumbnail: /partials/portfolio/item-0/thumbnail.jpg
+  # A list of iamges to be displayed in a slider
+  gallery:
+    [
+      '/partials/portfolio/item-0/item-1.jpg',
+    ]
+---
+<PortfolioLightboxLayout
+  contentInfo={
+    <LightboxContentInfo
+      projectUrl={
+        // Button URL
+        'https://www.envato.com'
+      }
+      articleInfo={
+        // Details part as key-value pairs
+        [
+         // {key: 'Client', value: 'Envato'},
+          {key: 'Categories', value: <CategoriesToText />},
+        ]
+      }
+    />
+  }
+  carousel={
+    <LightboxCarousel />
+}>
+
+Presented here is the full original manuscript, completed in 1988, with additional epigraph and a special cover for this 2024 digital edition.
+
+<p><strong><em><a href='/partials/portfolio/item-0/An-Eye-For-Dark-Places.pdf' >An Eye for Dark Places &raquo;</a></em></strong></p>
+
+</PortfolioLightboxLayout>
