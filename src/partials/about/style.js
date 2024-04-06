@@ -47,7 +47,7 @@ export default {
       }
     }
     ._imageEmbed {
-    float:left;
+    float:right;
     margin: 0 20px 10px 0;
     }
     ._subtitle {
@@ -72,7 +72,7 @@ export default {
     ._title {
       font-weight: 700;
       margin-bottom: 15px;
-      font-size: 28px;
+      font-size: 22px;
       line-height: 1.5;
       @media (min-width: ${bs['breakpoint-max-lg']}) and (max-width: ${bs[
           'breakpoint-max-xl'
@@ -90,13 +90,13 @@ export default {
         ._description h5 {
       font-weight: 300;
       margin-bottom: 15px;
-      font-size: 28px;
+      font-size: 22px;
       line-height: 1.5;
       text-indent:50px;
       @media (min-width: ${bs['breakpoint-max-lg']}) and (max-width: ${bs[
           'breakpoint-max-xl'
         ]}) {
-        font-size: 22px;
+        font-size: 20px;
       }
       @media (max-width: ${bs['breakpoint-max-lg']}) {
         font-size: 22px;
