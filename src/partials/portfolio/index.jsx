@@ -139,6 +139,7 @@ const MansoryItem = (props) => {
         >
           <div className='_content'>
             <h6 className='_title'>{props.scope.frontmatter?.title}</h6>
+            <h6 className='_subTitle'>{props.scope.frontmatter?.subTitle}</h6>
             <span className='_action'>Open &raquo;</span>
           </div>
         </div>

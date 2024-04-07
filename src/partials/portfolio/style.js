@@ -76,6 +76,16 @@ export default {
         font-size: 14px;
       }
     }
+    ._subTitle {
+      font-size: 17px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      line-height: 1.4;
+      color: #fade6f;
+      @media (max-width: ${bs['breakpoint-max-sm']}) {
+        font-size: 12px;
+      }
+    }
     ._action {
       font-weight: 600;
       display: inline-block;
