@@ -45,6 +45,12 @@ export default {
         margin-bottom: 18px;
       }
     }
+    ._musicIntro {
+    font-size:1.2rem;
+    color: #f0f0f0;
+    font-weight: 400;
+
+    }
     ._description {
       font-size: 15px;
       margin-bottom: 0;
