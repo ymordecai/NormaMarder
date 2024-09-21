@@ -104,6 +104,7 @@ const About = (props) => (
           src={aboutImg7}
         />
       </Col>
+        <h5><strong><em><a href='/partials/portfolio/item-0/Norma-Marder-Slideshow.pdf' >See Norma picture gallery &raquo;</a></em></strong></h5>
 
     </div>
   </SectionWrapper>
