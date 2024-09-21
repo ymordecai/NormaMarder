@@ -35,7 +35,7 @@ const Hero = (props) => {
 
   // Data for typed effect
   const data = {
-    roles: ['Writer', 'Singer', 'Feminist', 'Mentor', 'Friend'],
+    roles: ['Writer', 'Singer', 'Feminist', 'Mentor', 'Friend', 'Mother', 'Grandmother'],
   }
 
   // UseEffect to initialize typed plugin
